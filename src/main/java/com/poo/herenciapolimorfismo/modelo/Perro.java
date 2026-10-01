@@ -9,10 +9,17 @@ package com.poo.herenciapolimorfismo.modelo;
  * @author taidy
  */
 public class Perro extends Animal {
+    
+    private int edad;
+    private String raza;
 
-    public Perro(String nombre) {
+    public Perro(String nombre, int edad, String raza ) {
         super(nombre);
+        this.edad = edad;
+        this.raza = raza;
     }
+
+    
 
     public Perro() {
         super("Pongo");

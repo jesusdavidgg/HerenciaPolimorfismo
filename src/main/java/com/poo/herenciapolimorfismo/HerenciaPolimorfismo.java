@@ -35,10 +35,10 @@ mascota2.hacerSonido();
 // Mismo mensaje, DIFERENTES resultados
 
 Animal[] animales = {
-  new Perro("Rex"),
+  new Perro("Rex",5,"Chou chou"),
   new Gato("Silvestre"),
   new Animal("Piolin"),
-   new Pez("Doris")
+   new Pez("Doris",5)
 };
 
 for (Animal animal : animales) {

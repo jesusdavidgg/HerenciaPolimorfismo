@@ -22,6 +22,7 @@ public class HerenciaPolimorfismo {
 Animal mascota1 = new Perro();
 Animal mascota2 = new Gato();
 Animal mascota3 = new Pez();
+Pez mipez = new Pez();
 
 mascota3.hacerSonido();
 
@@ -45,5 +46,8 @@ for (Animal animal : animales) {
   animal.hacerSonido(); // Polimorfismo
 }
 
+mipez.nadar();
     }
+    
+    
 }

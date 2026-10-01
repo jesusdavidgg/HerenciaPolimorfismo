@@ -4,11 +4,12 @@ package com.poo.herenciapolimorfismo.modelo;
 
 public class Pajaro extends Animal{
     
-    private float altura=0;
+    private float altura;
 
     public Pajaro(float altura, String nombre) {
         super(nombre);
-        this.altura = altura;
+        this.altura=0;
+        
     }
     
     

@@ -15,6 +15,10 @@ public class Pez extends Animal {
     
     public Pez(String nombre, int profundidad) {
         super(nombre);
+        this.profundidad = profundidad;
+    }
+    public Pez(String nombre) {
+        super(nombre);
         this.profundidad = 0;
     }
     
@@ -24,6 +28,7 @@ public class Pez extends Animal {
    
    
     public void nadar(){
+        this.profundidad += 5;
         System.out.println("Profundidad: "+ profundidad);
         
     }

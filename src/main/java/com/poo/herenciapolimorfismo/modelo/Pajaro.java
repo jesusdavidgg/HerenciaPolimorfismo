@@ -8,13 +8,19 @@ public class Pajaro extends Animal{
 
     public Pajaro(float altura, String nombre) {
         super(nombre);
-        this.altura=0;
+        this.altura= altura;
+        
+    }
+    public Pajaro(String nombre) {
+        super(nombre);
+        this.altura= 0;
         
     }
     
     
     private void volar(){
-        System.out.println("Altura actual: "+ altura+10);
+        this.altura+=10;
+        System.out.println("Altura actual: "+ this.altura);
     }
     
     
